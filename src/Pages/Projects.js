@@ -1,12 +1,10 @@
 import "./Resources/Projects.css";
-import {Button, Badge} from "react-bootstrap";
 import React  from "react";
 
 const Projects = () => {
     return(
         <div className="PROJECTS">
             <Description />
-            <Project />
         </div>
     )
 }
@@ -20,14 +18,6 @@ const Description = () => {
             <div className="DESCRIPTION">
                 <p>Here are some of my projects</p>
             </div>
-        </div>
-    )
-}
-
-const Project = () => {
-    return(
-        <div>
-            <h1>Project</h1>
         </div>
     )
 }
