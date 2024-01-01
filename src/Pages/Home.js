@@ -12,7 +12,7 @@ const Home = () => {
                 <h1 className="BIO_TITLE">Hi, I'm Kaicheng</h1>
                 <h2 className="BIO_SUBTITLE">Software Engineer</h2>
                 <p className="BIO_CONTENT">
-                  I'm a software engineer with a passion for learning new things. I have a background in computer science and have worked on a variety of projects ranging from backend development to robotics.
+                  I study computer science and love to build things. I have experience with robotics, web development, and machine learning.
                 </p>
               </div>
             </div>
