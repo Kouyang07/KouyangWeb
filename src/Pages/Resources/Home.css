@@ -1,0 +1,58 @@
+/* Home.css */
+
+.SITE_CONTAINER {
+    margin-top: 15%;
+  }
+  
+  .BIO_CONTAINER {
+    /* Add styles for BIO_CONTAINER if needed */
+  }
+  
+  .BIO {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .BIO_TEXT {
+    /* Add styles for BIO_TEXT if needed */
+  }
+  
+  .BIO_TITLE {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .BIO_SUBTITLE {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .BIO_CONTENT {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .BIO_IMAGE_CONTAINER {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+  }
+  
+  .BIO_IMAGE {
+    border-radius: 50%;
+    width: 60%; /* Adjust as needed */
+  }
+  
