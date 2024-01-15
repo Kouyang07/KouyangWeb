@@ -54,7 +54,7 @@ const Layout = () => {
                 </Link>
               </li>
               <li className="nav-item">
-  <a href="https://blog.kouyang.dev/" className="nav-link" style={{ fontSize: '1.5rem' }} target="_blank">
+  <a href="https://blog.kouyang.dev/" className="nav-link" style={{ fontSize: '1.5rem' }} target="_blank" rel="noopener noreferrer">
     Blogs
   </a>
 </li>
