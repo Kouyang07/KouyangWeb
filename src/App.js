@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Blogs from "./Pages/Blogs";
 import Contact from "./Pages/Contact";
 import NoPage from "./Pages/NoPage";
 import Home from "./Pages/Home";
@@ -18,7 +17,6 @@ const Menu = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="blogs" element={<Blogs />} />
             <Route path="projects" element={<Projects />} />
             <Route path="contact" element={<Contact />} />
             <Route path="*" element={<NoPage />} />
@@ -56,10 +54,10 @@ const Layout = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/blogs" className="nav-link" style={{ fontSize: '1.5rem' }}>
-                  Blogs
-                </Link>
-              </li>
+  <a href="https://blog.kouyang.dev/" className="nav-link" style={{ fontSize: '1.5rem' }} target="_blank">
+    Blogs
+  </a>
+</li>
               <li className="nav-item">
                 <Link to="/projects" className="nav-link" style={{ fontSize: '1.5rem' }}>
                   Projects
