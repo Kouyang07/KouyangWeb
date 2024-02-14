@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 // Import Footer if needed
 import "./App.css";
+import Valentine from "./Pages/Valentine/index.js";
 
 const Menu = () => {
   return (
@@ -19,6 +20,7 @@ const Menu = () => {
             <Route index element={<Home />} />
             <Route path="projects" element={<Projects />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="baobei" element={<Valentine />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
