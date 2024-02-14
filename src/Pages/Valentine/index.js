@@ -106,7 +106,7 @@ const EventsList = () => {
                 <label>
                   <input type="password" value={password} onChange={handlePasswordChange} className="password-input" style={{ backgroundColor: 'white', color: 'black' }} />
                 </label>
-                <button type="submit" className="rounded">Submit</button>
+                <button type="submit" className="rounded white-button">Submit</button>
               </form>
             </div>
           </div>
