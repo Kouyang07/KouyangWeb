@@ -123,7 +123,7 @@ const EventsList = () => {
                 </div>
                 {event.pictures && (
                   <div className="col-md-4">
-                    <img src={event.pictures} alt={event.name} className="img-fluid" />
+                    <img src={event.pictures} alt={event.name} className="img-fluid rounded" />
                   </div>
                 )}
               </div>
